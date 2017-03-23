@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Stress Level Survey</h1>
+        <h3>Chill out</h3>
+      </div>
+    </div>
+    <div class="container">
+      <p>How has stress affected you? Check all that apply:</p>
+      <form id="stress-effects">
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-effects" value="sleep-loss">
+            Loss of sleep.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-effects" value="overwhelmed">
+            Feeling overwhelmed.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-effects" value="depressed">
+            Feeling depressed.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-effects" value="isolated">
+            Feeling isolated.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-effects" value="fatigued">
+            Feeling fatigued.
+          </label>
+        </div>
+       <p>What symptoms are you feeling? Check all that apply:</p>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-symptoms" value="anxiety">
+            Anxiety.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-symptoms" value="high-blood-pressure">
+            High blood pressure.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-symptoms" value="sweaty-palms">
+            Sweaty Palms.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-symptoms" value="moms-spaghetti">
+            Mom's Spaghetti.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="stress-symptoms" value="sweater-vomit">
+            Vomit on your sweater.
+          </label>
+        </div>
+       <p>What methods have you used to cope? Check all that apply:</p>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="coping-methods" value="meditate">
+            Meditation.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="coping-methods" value="manage-time">
+            Manage your time.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="coping-methods" value="sick-beat">
+            Drop a sick beat.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="coping-methods" value="rap-battle">
+            Rap battle.
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" name="coping-methods" value="sword-juggling">
+            Juggle swords.
+          </label>
+        </div>
+        <br>
+        <button class="btn btn-primary">Submit!</button>
+      </form>
+      <div id="goodResult">
+        <p>You are nailing it.</p>
+      </div>
+      <div id="mediumResult">
+        <p>Uhhh seems like you may need to work on managing your stress a little better.</p>
+      </div>
+      <div id="badResult">
+        <p>Whoa, stop, are you looking at the man in the mirror?</p>
+      </div>
+    </div>
+  </body>
+</html>
